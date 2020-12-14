@@ -17,7 +17,7 @@ app.post("/api/notes", function (req, res) {
 app.delete("/api/notes/:index", function(req,res){
     var newData = parseInt(req.params.index);
     let newNote = [];
-    for (var = 0, i<notes.length; i++){
+    for (var i = 0; i<notes.length; i++){
         if (i !== newData){
             newNote.push(notes[i])
         }
