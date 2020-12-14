@@ -11,3 +11,5 @@ var notes = [
         "id": 2 
     }
 ]
+
+module.exports = notes;

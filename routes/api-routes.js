@@ -1,4 +1,4 @@
-var notes = require("../db/db.json");
+var notes = require("../db/notes");
 
 module.exports = function (app) {
   //get
